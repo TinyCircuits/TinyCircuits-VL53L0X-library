@@ -1,32 +1,44 @@
 #######################################
-# Syntax Coloring Map for BMA250
+# Syntax Coloring Map for VL53L0X
 #######################################
 
 #######################################
 # Datatypes (KEYWORD1)
 #######################################
 
-BMA250	KEYWORD1
+VL53L0X	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
-begin		KEYWORD2
-readMag		KEYWORD2
-readTemp	KEYWORD2
-sleep		KEYWORD2
-wake		KEYWORD2
-readMode	KEYWORD2
-access		KEYWORD2
+setAddress						KEYWORD2
+getAddress						KEYWORD2
+init							KEYWORD2
+writeReg						KEYWORD2
+writeReg16Bit					KEYWORD2
+writeReg32Bit					KEYWORD2
+readReg							KEYWORD2
+readReg16Bit					KEYWORD2
+readReg32Bit					KEYWORD2
+writeMulti						KEYWORD2
+readMulti						KEYWORD2
+setSignalRateLimit				KEYWORD2
+getSignalRateLimit				KEYWORD2
+setMeasurementTimingBudget		KEYWORD2
+getMeasurementTimingBudget		KEYWORD2
+setVcselPulsePeriod				KEYWORD2
+getVcselPulsePeriod				KEYWORD2
+startContinuous					KEYWORD2
+stopContinuous					KEYWORD2
+readRangeContinuousMillimeters	KEYWORD2
+readRangeSingleMillimeters		KEYWORD2
+setTimeout						KEYWORD2
+getTimeout						KEYWORD2
+timeoutOccurred					KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
 #######################################
 
-A1454_ADDRESS			LITERAL1
-A1454_ACCESS_ADDRESS	LITERAL1
-A1454_ACCESS_CODE		LITERAL1
-A1454_TEMPOUT			LITERAL1
-A1454_OUTPUT			LITERAL1
-A1454_SLEEP				LITERAL1
+ADDRESS_DEFAULT			LITERAL1
